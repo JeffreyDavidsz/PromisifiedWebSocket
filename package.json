@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JeffreyDavidsz/PromisifiedWebSocket/issues"
   },
-  "homepage": "https://github.com/JeffreyDavidsz/PromisifiedWebSocket#readme"
+  "homepage": "https://github.com/JeffreyDavidsz/PromisifiedWebSocket#readme",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
 }
