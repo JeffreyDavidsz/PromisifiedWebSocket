@@ -1,0 +1,23 @@
+{
+  "name": "promisifiedwebsocket",
+  "version": "1.0.0",
+  "description": "A wrapper for the ws package, which will use a promise to wait for a response",
+  "main": "PromisifiedWebSocket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffreyDavidsz/PromisifiedWebSocket.git"
+  },
+  "keywords": [
+    "websocket",
+    "ws"
+  ],
+  "author": "Jeffrey Davidsz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffreyDavidsz/PromisifiedWebSocket/issues"
+  },
+  "homepage": "https://github.com/JeffreyDavidsz/PromisifiedWebSocket#readme"
+}
