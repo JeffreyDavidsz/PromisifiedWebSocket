@@ -7,8 +7,14 @@ Promise-based send method
 Event emitter for websocketOpen and websocketError
 Status event emitter
 
+## Install
 ```javascript
-const PromisifiedWebSocket = require('./PromisifiedWebSocket')
+npm install promisifiedwebsocket
+yarn add promisifiedwebsocket
+```
+
+```javascript
+const PromisifiedWebSocket = require('promisifiedwebsocket')
 
 const url = '127.0.0.1:1234/testPath' // Change this to your likes
 const ws = new PromisifiedWebSocket(url)
