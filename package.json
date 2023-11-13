@@ -1,6 +1,6 @@
 {
   "name": "promisifiedwebsocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for the ws package, which will use a promise to wait for a response",
   "main": "PromisifiedWebSocket.js",
   "scripts": {

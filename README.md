@@ -9,9 +9,12 @@ Status event emitter
 
 ## Install
 ```javascript
+// Using NPM
 npm install promisifiedwebsocket
+// Using YARN
 yarn add promisifiedwebsocket
 ```
+Then you can use the module
 
 ```javascript
 const PromisifiedWebSocket = require('promisifiedwebsocket')
