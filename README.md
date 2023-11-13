@@ -1,7 +1,7 @@
 # PromisifiedWebSocket
 
-This class is a wrapper for the WebSocket class that comes with Node.js. It adds
-the following functionality:
+This class is a wrapper for [ws: a Node.js WebSocket library](https://github.com/websockets/ws). 
+It adds the following functionality:
 
 Promise-based send method
 Event emitter for websocketOpen and websocketError
@@ -10,12 +10,12 @@ Status event emitter
 ```javascript
 const PromisifiedWebSocket = require('./PromisifiedWebSocket')
 
-const url = '127.0.0.1:1234/testPath'
+const url = '127.0.0.1:1234/testPath' // Change this to your likes
 const ws = new PromisifiedWebSocket(url)
 
 ```
 
-You can use the `send(data)`, `close()`;
+You can use the `send(data)` & `close()`;
 
 ```javascript
 const result = await ws.send('getFaderList')
@@ -29,7 +29,7 @@ ws.on('websocketError', (error) => {
     console.log(`WebSocket error: ${error}`)
 })
 ws.on('status', (status) => {
-    // We have status open, connection closed
+    // Statuses that will be emitted are: open & connaction closed
     console.log(`Status change: ${status}`)
 })
 ws.on('websocketOpen', () => {
